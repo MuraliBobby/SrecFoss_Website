@@ -1,0 +1,1214 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Glass+Antiqua&family=Kdam+Thmor+Pro&family=Lato:wght@300&family=Oswald:wght@500&family=Raleway&display=swap');
+body{
+    font-family: 'Bree Serif', serif;
+    font-family: 'Glass Antiqua', cursive;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Raleway', sans-serif;
+    background-color: #01010d;
+    line-height: 2;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+
+html{
+    scroll-behavior:smooth;
+  }
+
+  /* <!-- NavBar --> */
+  .navbar{
+    position: fixed;
+    z-index: 3;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #000011; */
+    padding-left: 400px;
+  }
+  
+.navbar li {
+    float: left;
+    margin-left: 50px;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+  
+.navbar li a:hover {
+    background-color: #302e2e;
+  }
+  
+#menu-btn{
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 1.5rem;
+  display: none;
+}
+ /*Background and OverLay */
+
+  .background{
+    /* background-image: url(images/background-4.jpg); */
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .background video{
+    
+    opacity: 0.3;
+  }
+
+
+  .mid{
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .mid p{
+    color: #EAEFF2 ;
+    font-size: 1.3rem; 
+    margin-bottom: 1.4rem;
+  }
+
+  .mid h1{
+    color: #fff ;
+    font-size: 3rem; 
+  }
+
+  .mid h5{
+    color: rgb(196, 175, 175);
+    margin-top: 10px;
+  }
+
+  .mid .btn{
+    margin-top:100px;
+  }
+
+  .mid .btn a{
+    text-decoration: none;
+    text-transform: uppercase;
+  }
+
+  .mid .btn a.simple{
+    color: #fff;
+    font-weight: 700;
+    padding: 0.9rem 1.6rem;
+  }
+
+  .mid .btn a.simple:hover{
+    color: #ff5733;
+  }
+
+  .mid .btn a.border{
+    color: #ff5733;
+    border: 1px solid #ff5733 ;
+    background-color: white;
+    border-radius: 3px;
+    font-weight: 500;
+    padding: 0.9rem 1.6rem;
+  }
+
+  .mid .btn a.border:hover{
+    background-color: white;
+    border: 1px solid white;
+  }
+
+  /*-------------------------BLOCK-2-------------------------*/
+  .block-2{
+    position: absolute;
+    top: 100%;
+    background-color: rgba(125, 125, 125, 0.8);
+    margin: 30px;
+    border-radius: 20px;
+    padding-top: 30px;
+  }
+    /*ABOUT*/
+
+  .about{
+   margin-bottom:30px ;
+  }
+  .about h1{
+    font-size: 40px;
+    color: white;
+  }
+
+  .about .about-content{
+    /* background-color: gray; */
+    border-radius: 10px;
+    margin: 20px;
+    padding: 30px;
+    color: white;
+    /* box-shadow: rgba(184, 176, 176, 0.25) 0px 54px 55px, rgba(184, 176, 176, 0.25) 0px -12px 30px, rgba(184, 176, 176, 0.25) 0px 4px 6px, rgba(184, 176, 176, 0.25) 0px 12px 13px, rgba(184, 176, 176, 0.25) 0px -3px 5px; */
+  }
+
+  
+  .about .vision-mission{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+  }
+
+    /*ABOUT VISION*/
+
+  .about .vision-mission .vision{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-left: 50px;
+    width: 50%;
+    padding: 10px;
+  }
+
+  .vision h3{
+    color: white;
+    margin-top: 10px;
+  }
+
+  .vision p{
+
+    color: white;
+    margin: 30px;
+  }
+  /*ABOUT MISSION*/
+
+  .about .vision-mission .mission{
+    border-radius: 10px;
+    background-color: rgba(128, 128, 128, 0.5);
+    margin-right: 50px;
+    width: 50%;
+    padding: 10px;
+  }
+  
+  .mission h3{
+    color: white;
+    margin-top: 10px;
+  }
+
+  .mission p{
+
+    color: white;
+    margin: 30px;
+  }
+
+  
+ /*-------------------------BLOCK-3-------------------------*/
+
+  .block-3  {
+    margin-top: 700px;
+    margin-left: 30px;
+    margin-right: 30px;
+    padding: 30px;
+  }
+
+  .what-we-do h1{
+    color: white;
+    font-size: 2rem;
+    margin-bottom: 30px;
+  }
+
+  .block-3 .part-1{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    
+  }
+
+  .block-3 h2{
+    font-size: 1.5rem;
+  }
+  .block-3 p{
+    margin-top: 10px;
+  }
+  .block-3 i{
+    margin-top: 50px;
+  }
+
+  .part-1 .hackathon{
+    /* border: 2px solid white; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+  }
+
+  .part-1 .coding{
+    /* border: 2px solid white; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+
+  .block-3 .part-2{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    
+  }
+
+  .part-2 .tech-talk{
+    /* border: 2px solid white; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 20px;
+    padding: 10px;
+    color: white;
+  }
+
+  .part-2 .workshop{
+    /* border: 2px solid white; */
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 10px;
+    color: white;
+  }
+
+
+  /*----------------------Block-4---------------------*/
+.block-4{
+    width: 100%;
+    height: 50vh;
+    margin-top: 30px;
+
+}
+
+.block-4  h1{
+    color: white;
+    font-size: 2rem;
+    z-index: 3;
+}
+
+.footer-contents{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    margin: 30px;
+    padding: 30px;
+}
+
+.footer-contents .social{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    margin-left: 50px;
+}
+
+.social .email{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
+.social .linkedin{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
+.social .instagram{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    color: white;
+}
+
+.footer-contents .contact-form{
+    margin-left: 300px;
+}
+
+.contact-form .info{
+    display: flex;
+    flex-direction: row;
+    gap: 70px;
+    color: white;
+}
+
+.contact-form .message{
+    color: white;
+}
+
+.form-group input {
+    height: 20px;
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #b4a5a5; /* Underline style */
+    outline: none;
+    background-color: transparent; /* Make the input area transparent */
+    margin-left: 20px;
+}
+
+
+.message textarea{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid #b4a5a5; /* Underline style */
+    outline: none;
+    background-color: transparent; /* Make the input area transparent */
+    margin-left: 20px;
+}
+
+
+.button-54 {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #eee5e5;
+  cursor: pointer;
+  border: 3px solid;
+  padding: 0.25em 0.5em;
+  box-shadow: 1px 1px 0px 0px, 2px 2px 0px 0px, 3px 3px 0px 0px, 4px 4px 0px 0px, 5px 5px 0px 0px;
+  position: relative;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 30px;
+  margin-left: 40%;
+}
+
+.button-54:active {
+  box-shadow: 0px 0px 0px 0px;
+  top: 5px;
+  left: 5px;
+}
+
+@media (min-width: 768px) {
+  .button-54 {
+    padding: 0.25em 0.75em;
+  }
+}
+
+
+
+
+@media (max-width: 1042px) {
+  .navbar{
+    position: fixed;
+    z-index: 3;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #000011; */
+    padding-left: 250px;
+  }
+  
+.navbar li {
+    float: left;
+    margin-left: 20px;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+
+
+  
+  .background{
+    /* background-image: url(images/background-4.jpg); */
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .background video{
+    
+    opacity: 0.3;
+  }
+
+
+  .mid{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .mid p{
+    color: #EAEFF2 ;
+    font-size: 1rem; 
+    margin-bottom: 1.4rem;
+  }
+
+  .mid h1{
+    color: #fff ;
+    font-size: 2rem; 
+  }
+
+  .mid h5{
+    color: rgb(196, 175, 175);
+    margin-top: 10px;
+  }
+
+  .mid .btn{
+    margin-top:100px;
+  }
+
+
+
+  /*-------------------------BLOCK-2-------------------------*/
+  .block-2{
+    position: absolute;
+    top: 85%;
+    background-color: rgba(125, 125, 125, 0.8);
+    margin: 30px;
+    border-radius: 20px;
+    padding-top: 30px;
+  }
+    
+  /*-------------------------BLOCK-3-------------------------*/
+
+    .block-3  {
+      margin-top: 830px;
+      margin-left: 30px;
+      margin-right: 30px;
+      padding: 30px;
+    }
+
+    .block-3 h2{
+      font-size: 1.1rem;
+    }
+
+      /*-------------------------BLOCK-4-------------------------*/
+
+      .block-4{
+        width: 100%;
+        height: 60vh;
+        margin-top: 30px;
+    
+    }
+
+    .footer-contents{
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      margin: 10px;
+      padding: 30px;
+    }
+
+
+    .footer-contents .social{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      /* margin-left: 10px; */
+    }
+
+    .social .email{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+  }
+  
+  .social .linkedin{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+  }
+  
+  .social .instagram{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+  }
+
+  
+    .footer-contents .contact-form{
+      margin-left: 130px;
+  }
+  
+  .contact-form .info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+  }
+
+}
+
+@media (max-width: 991px) {
+  .navbar{
+    position: fixed;
+    z-index: 3;
+  }
+  .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    /* background-color: #000011; */
+    padding-left: 200px;
+  }
+  
+.navbar li {
+    float: left;
+    margin-left: 20px;
+  }
+  
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    text-decoration: none;
+  }
+
+
+
+  
+  .background{
+    /* background-image: url(images/background-4.jpg); */
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    z-index: -1;
+  }
+
+  .background video{
+    height: 100vh;
+    opacity: 0.3;
+  }
+
+
+  .mid{
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+  }
+
+  .mid p{
+    color: #EAEFF2 ;
+    font-size: 1rem; 
+    margin-bottom: 1.4rem;
+  }
+
+  .mid h1{
+    color: #fff ;
+    font-size: 1.5rem; 
+  }
+
+  .mid h5{
+    color: rgb(196, 175, 175);
+    margin-top: 10px;
+  }
+
+  .mid .btn{
+    margin-top:70px;
+  }
+
+
+
+  /*-------------------------BLOCK-2-------------------------*/
+  .block-2{
+    position: absolute;
+    top: 68%;
+    background-color: rgba(125, 125, 125, 0.8);
+    margin: 30px;
+    border-radius: 20px;
+    padding-top: 30px;
+  }
+    
+  /*-------------------------BLOCK-3-------------------------*/
+
+    .block-3  {
+      margin-top: 830px;
+      margin-left: 30px;
+      margin-right: 30px;
+      padding: 30px;
+    }
+
+    .block-3 h2{
+      font-size: 1rem;
+    }
+
+      /*-------------------------BLOCK-4-------------------------*/
+
+    .footer-contents{
+      display: flex;
+      flex-direction: row;
+      gap: 50px;
+      margin: 10px;
+      padding: 30px;
+    }
+
+
+    .footer-contents .social{
+      display: flex;
+      flex-direction: column;
+      gap: 50px;
+      /* margin-left: 10px; */
+    }
+
+    .social .email{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+  }
+  
+  .social .linkedin{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+  }
+  
+  .social .instagram{
+      display: flex;
+      flex-direction: row;
+      gap: 10px;
+      color: white;
+  }
+
+  
+    .footer-contents .contact-form{
+      margin-left: 130px;
+  }
+  
+  .contact-form .info{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    color: white;
+  }
+
+
+  @media (max-width: 768px) {
+    .navbar{
+      position: fixed;
+      z-index: 3;
+    }
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background-color: #000011; */
+      padding-left: 100px;
+    }
+    
+  .navbar li {
+      float: left;
+      margin-left: 20px;
+    }
+    
+  .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 16px;
+      text-decoration: none;
+    }
+  
+  
+  
+    
+    .background{
+      /* background-image: url(images/background-4.jpg); */
+      width: 100%;
+      height: 50%;
+      background-size: cover;
+      z-index: -1;
+    }
+  
+    .background video{
+      height: 100vh;
+      opacity: 0.3;
+    }
+  
+  
+    .mid{
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+    }
+  
+    .mid p{
+      color: #EAEFF2 ;
+      font-size: 0.8rem; 
+      margin-bottom: 1.4rem;
+    }
+  
+    .mid h1{
+      color: #fff ;
+      font-size: 1.2rem; 
+    }
+  
+    .mid h5{
+      color: rgb(196, 175, 175);
+      margin-top: 10px;
+      font-size: 0.5rem; 
+    }
+  
+    .mid .btn{
+      margin-top:10px;
+    }
+
+
+    .mid .btn a.simple{
+      color: #fff;
+      font-weight: 700;
+      padding: 0.5rem 1.2rem;
+    }
+  
+    .mid .btn a.simple:hover{
+      color: #ff5733;
+    }
+  
+    .mid .btn a.border{
+      color: #ff5733;
+      border: 1px solid #ff5733 ;
+      background-color: white;
+      border-radius: 3px;
+      font-weight: 500;
+      padding: 0.2rem 1rem;
+    }
+
+    
+  
+  
+  
+    /*-------------------------BLOCK-2-------------------------*/
+    .block-2{
+      position: absolute;
+      top: 54%;
+      background-color: rgba(125, 125, 125, 0.8);
+      margin: 30px;
+      border-radius: 20px;
+      padding-top: 30px;
+    }
+
+
+    .about{
+      margin-bottom:30px ;
+     }
+     .about h1{
+       font-size: 40px;
+       color: white;
+     }
+   
+     .about .about-content{
+       /* background-color: gray; */
+       border-radius: 10px;
+       margin: 20px;
+       padding: 30px;
+       color: white;
+       /* box-shadow: rgba(184, 176, 176, 0.25) 0px 54px 55px, rgba(184, 176, 176, 0.25) 0px -12px 30px, rgba(184, 176, 176, 0.25) 0px 4px 6px, rgba(184, 176, 176, 0.25) 0px 12px 13px, rgba(184, 176, 176, 0.25) 0px -3px 5px; */
+     }
+   
+     
+     .about .vision-mission{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 10px;
+     }
+   
+       /*ABOUT VISION*/
+   
+     .about .vision-mission .vision{
+       border-radius: 10px;
+       background-color: rgba(128, 128, 128, 0.5);
+       margin-left: 20px;
+       margin-right: 20px;
+       width: 90%;
+       padding: 10px;
+     }
+   
+     .vision h3{
+       color: white;
+       margin-top: 10px;
+     }
+   
+     .vision p{
+   
+       color: white;
+       margin: 30px;
+     }
+     /*ABOUT MISSION*/
+   
+     .about .vision-mission .mission{
+      border-radius: 10px;
+       background-color: rgba(128, 128, 128, 0.5);
+       margin-left: 20px;
+       margin-right: 20px;
+       width: 90%;
+       padding: 10px;
+     }
+     
+     .mission h3{
+       color: white;
+       margin-top: 10px;
+     }
+   
+     .mission p{
+   
+       color: white;
+       margin: 30px;
+     }
+
+
+      
+    /*-------------------------BLOCK-3-------------------------*/
+  
+      .block-3  {
+        margin-top: 1200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 30px;
+      }
+  
+      .block-3 h2{
+        font-size: 1rem;
+      }
+  
+        /*-------------------------BLOCK-4-------------------------*/
+  
+      .footer-contents{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin: 10px;
+        padding: 30px;
+      }
+  
+  
+      .footer-contents .social{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        /* margin-left: 10px; */
+      }
+  
+      .social .email{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+    
+    .social .linkedin{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+    
+    .social .instagram{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+  
+    
+      .footer-contents .contact-form{
+        margin-left: 100px;
+    }
+    
+    .contact-form .info{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: white;
+    }
+  }
+
+  @media (max-width: 470px) {
+    .navbar{
+      position: fixed;
+      z-index: 3;
+    }
+    .navbar ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      /* background-color: #000011; */
+      /* padding-left: 100px; */
+      font-size: 0.5rem;
+    }
+    
+  .navbar li {
+      float: left;
+      /* margin-left: 20px; */
+    }
+    
+  .navbar li a {
+      display: block;
+      color: white;
+      text-align: center;
+      /* padding: 16px; */
+      text-decoration: none;
+    }
+  
+  
+  
+    
+    .background{
+      /* background-image: url(images/background-4.jpg); */
+      width: 100%;
+      height: 100%;
+      background-size: cover;
+      z-index: -1;
+    }
+  
+    .background video{
+        
+      width: 100vw; /* 100% of the viewport width */
+      height: 100vh; /* 100% of the viewport height */
+      object-fit: cover; /* Maintain video aspect ratio and cover entire container */
+      opacity: 0.3; /* Adjust opacity if needed */
+    }
+  
+  
+    .mid{
+      position: absolute;
+      top: 35%;
+      left: 50%;
+      transform: translate(-50%,-50%);
+      text-align: center;
+    }
+  
+    .mid p{
+      color: #EAEFF2 ;
+      font-size: 0.8rem; 
+      margin-bottom: 1.4rem;
+    }
+  
+    .mid h1{
+      color: #fff ;
+      font-size: 1.2rem; 
+    }
+  
+    .mid h5{
+      color: rgb(196, 175, 175);
+      margin-top: 10px;
+      font-size: 0.5rem; 
+    }
+  
+    .mid .btn{
+      margin-top:10px;
+    }
+
+
+    .mid .btn a.simple{
+      color: #fff;
+      font-weight: 700;
+      padding: 0.5rem 1.2rem;
+    }
+  
+    .mid .btn a.simple:hover{
+      color: #ff5733;
+    }
+  
+    .mid .btn a.border{
+      color: #ff5733;
+      border: 1px solid #ff5733 ;
+      background-color: white;
+      border-radius: 3px;
+      font-weight: 500;
+      padding: 0.2rem 1rem;
+    }
+
+    
+  
+  
+  
+    /*-------------------------BLOCK-2-------------------------*/
+    .block-2{
+      position: absolute;
+      top: 54%;
+      background-color: rgba(125, 125, 125, 0.8);
+      margin: 30px;
+      border-radius: 20px;
+      padding-top: 30px;
+    }
+
+
+    .about{
+      margin-bottom:30px ;
+     }
+     .about h1{
+       font-size: 40px;
+       color: white;
+     }
+   
+     .about .about-content{
+       /* background-color: gray; */
+       border-radius: 10px;
+       margin: 20px;
+       padding: 30px;
+       color: white;
+       /* box-shadow: rgba(184, 176, 176, 0.25) 0px 54px 55px, rgba(184, 176, 176, 0.25) 0px -12px 30px, rgba(184, 176, 176, 0.25) 0px 4px 6px, rgba(184, 176, 176, 0.25) 0px 12px 13px, rgba(184, 176, 176, 0.25) 0px -3px 5px; */
+     }
+   
+     
+     .about .vision-mission{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       gap: 10px;
+     }
+   
+       /*ABOUT VISION*/
+   
+     .about .vision-mission .vision{
+       border-radius: 10px;
+       background-color: rgba(128, 128, 128, 0.5);
+       margin-left: 20px;
+       margin-right: 20px;
+       width: 90%;
+       padding: 10px;
+     }
+   
+     .vision h3{
+       color: white;
+       margin-top: 10px;
+     }
+   
+     .vision p{
+   
+       color: white;
+       margin: 30px;
+     }
+     /*ABOUT MISSION*/
+   
+     .about .vision-mission .mission{
+      border-radius: 10px;
+       background-color: rgba(128, 128, 128, 0.5);
+       margin-left: 20px;
+       margin-right: 20px;
+       width: 90%;
+       padding: 10px;
+     }
+     
+     .mission h3{
+       color: white;
+       margin-top: 10px;
+     }
+   
+     .mission p{
+   
+       color: white;
+       margin: 30px;
+     }
+
+
+      
+    /*-------------------------BLOCK-3-------------------------*/
+  
+      .block-3  {
+        margin-top: 1200px;
+        margin-left: 30px;
+        margin-right: 30px;
+        padding: 30px;
+      }
+  
+      .block-3 h2{
+        font-size: 1rem;
+      }
+  
+        /*-------------------------BLOCK-4-------------------------*/
+  
+      .footer-contents{
+        display: flex;
+        flex-direction: row;
+        gap: 50px;
+        margin: 10px;
+        padding: 30px;
+      }
+  
+  
+      .footer-contents .social{
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+        /* margin-left: 10px; */
+      }
+  
+      .social .email{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+    
+    .social .linkedin{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+    
+    .social .instagram{
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        color: white;
+    }
+  
+    
+      .footer-contents .contact-form{
+        margin-left: 100px;
+    }
+    
+    .contact-form .info{
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      color: white;
+    }
+  }
+}

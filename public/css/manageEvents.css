@@ -1,0 +1,29 @@
+.event_details{
+    /* max-width: 100px; */
+    line-height: 50px;
+}
+
+.event_name{
+    font-size: 1.4rem;
+}
+.event_description{
+    color: green;
+}
+
+.place_time{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.certificates{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.action-btns{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
